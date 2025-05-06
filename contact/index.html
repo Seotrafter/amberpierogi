@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>AmberPierogi - Tradycyjna polska kuchnia w sercu Gdańska</title>
+    <meta name="keywords"
+        content="AmberPierogi, pierogi, restauracja Gdańsk, polska kuchnia, domowe jedzenie, jedzenie na wynos, pierogarnia">
+    <meta name="description"
+        content="AmberPierogi to restauracja w Gdańsku oferująca tradycyjne polskie pierogi i dania domowe. Przyjdź, posmakuj i poczuj się jak w domu!">
+    <link href="../img/ico.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>
+            Używamy plików cookie, aby poprawić jakość korzystania z naszej strony. Kontynuując, akceptujesz naszą
+            <a href="../cookie.html">Polityka Cookie</a> oraz
+            <a href="../terms.html">Zasady i warunki</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies">Akceptuję</button>
+            <button id="decline-cookies">Odrzucam</button>
+        </div>
+    </div>
+
+
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="../" class="navbar-brand p-0">
+                <h1 class="text-primary m-0">AmberPierogi</h1>
+
+            </a>
+            <button class="navbar-toggler" type="button" id="menu-toggle">
+                <span class="fa fa-bars"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="../" class="nav-item nav-link">Strona główna</a>
+                    <a href="../about/" class="nav-item nav-link ">O nas</a>
+                    <a href="/" class="nav-item nav-link active">Kontakt</a>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white animated slideInDown">Kontakt</h1>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="../">Strona główna</a></li>
+                                <li class="breadcrumb-item text-white active" aria-current="page">Kontakt</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">Kontakt</h6>
+                    <h1 class="mb-5">Skontaktuj się z nami</h1>
+                </div>
+                <div class="row justify-content-center g-4">
+                    <div class="col-lg-6 col-md-10 wow fadeInUp" data-wow-delay="0.5s">
+                        <form action="../thankyou.php" method="post">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Twoje imię"
+                                            required>
+                                        <label for="name">Twoje imię</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Twój email"
+                                            required>
+                                        <label for="email">Twój email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="tel" class="form-control" id="phone"
+                                            placeholder="Twój numer telefonu" required>
+                                        <label for="phone">Numer telefonu</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Wpisz wiadomość tutaj" id="message"
+                                            style="height: 100px" required></textarea>
+                                        <label for="message">Wiadomość</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Wyślij wiadomość</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Szybkie linki</h4>
+                        <a class="btn btn-link" href="../">Strona główna</a>
+                        <a class="btn btn-link" href="../about/">O nas</a>
+                        <a class="btn btn-link" href="/">Kontakt</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Informacje</h4>
+                        <a class="btn btn-link" href="../terms.html">Zasady i warunki</a>
+                        <a class="btn btn-link" href="../privacy.html">Polityka prywatnośc</a>
+                        <a class="btn btn-link" href="../cookie.html">Polityka Cookie</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="text-white mb-3">Kontakt</h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jana Kochanowskiego 14B, 01-864
+                            Warszawa,
+                            Polska</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+48 601 731 860</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>kontakt@amberpierogi.pl</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; <a class="border-bottom" href="../">AmberPierogi</a>, Wszelkie prawa zastrzeżone.
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../js/main.js"></script>
+</body>
+
+</html>
